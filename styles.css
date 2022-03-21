@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html {
+    height: 100%;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    min-height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex: 0;
+}
+
+.bg-block {
+    background-color: #1F2937;
+}
+
+.main-block {
+    padding: 20px 60px;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header {
+    font-weight: 900;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-links {
+    display: flex;
+    color: #E5E7EB;
+    font-size: 18px;
+    gap: 15px;
+}
+
+.block1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 220px;
+}
+
+.header1-block {
+    display: flex;
+    flex-direction: column;
+    max-width: 410px;
+}
+
+.header1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+    display: flex;
+}
+
+.header1-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.main-img {
+    height: 230px;
+    width: 525px;
+    margin-left: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.block1 {
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.first-signup {
+    border: none;
+    border-radius: 5px;
+    width: 110px;
+    height: 33px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.block2 {
+    background-color: white;
+    margin-bottom: 100px;
+}
+
+.header2 {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.info-blocks {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    gap: 50px;
+}
+
+.info-img {
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+    height: 200px;
+    width: 175px;
+}
+
+.img-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.img-text {
+    margin-top: 8px;
+    max-width: 170px;
+    text-align: center;
+}
